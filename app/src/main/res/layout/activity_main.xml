@@ -7,14 +7,6 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="139dp"
-        android:layout_height="275dp"
-        android:src="@drawable/logo_dragon"
-        tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="-112dp" />
-
-    <ImageView
         android:id="@+id/ivBackground"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,9 +25,10 @@
         android:backgroundTint="#FFFFFF"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Enter 6 letters!"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
@@ -43,7 +36,7 @@
         android:id="@+id/btnSplit"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Check"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etInput" />
@@ -62,11 +55,11 @@
         app:layout_constraintTop_toBottomOf="@+id/btnSplit" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
-        android:text="TextView"
+        android:text="A"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -79,21 +72,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
-        android:text="TextView"
+        android:text="A"
         android:textColor="#FFFFFF"
 
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintBottom_toBottomOf="@+id/textView1"
         app:layout_constraintEnd_toStartOf="@+id/textView3"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        app:layout_constraintStart_toEndOf="@+id/textView1"
+        app:layout_constraintTop_toTopOf="@+id/textView1" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
-        android:text="TextView"
+        android:text="A"
         android:textColor="#FFFFFF"
 
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
@@ -107,7 +100,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
-        android:text="TextView"
+        android:text="A"
         android:textColor="#FFFFFF"
 
         app:layout_constraintBottom_toBottomOf="@+id/textView3"
@@ -121,7 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
-        android:text="TextView"
+        android:text="A"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
         app:layout_constraintEnd_toStartOf="@+id/textView6"
@@ -134,7 +127,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
-        android:text="TextView"
+        android:text="A"
         android:textColor="#FFFFFF"
 
         app:layout_constraintBottom_toBottomOf="@+id/textView5"
